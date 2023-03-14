@@ -11,10 +11,6 @@ public class HotBeverages  extends Goods{
 
      @Override
     public String toString() {
-        return "HotBeverages {" +
-                "temperature= " + temperature +
-                ", name= '" + name + '\'' +
-                ", cost= " + cost +
-                '}';
+        return name + " temperature " + temperature + " price " + cost;
     }
 }

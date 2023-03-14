@@ -1,7 +1,6 @@
 package org.example.HW1;
 
-
-public class BottleOfWater extends Goods {
+public class BottleOfWater extends Goods{
 
     private final boolean still;
 
@@ -14,11 +13,9 @@ public class BottleOfWater extends Goods {
         String line;
         if (still) line = "вода без газа";
         else line = "газированная вода";
-        return "BottleOfWater {" +
-                "name = '" + name + '\'' +
-                ", cost = " + cost + '\'' + ", " +
-                line + '}';
+        return name + " price " + cost + " " + line;
     }
+
 
 
 }

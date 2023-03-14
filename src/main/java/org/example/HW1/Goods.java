@@ -13,12 +13,14 @@ public abstract class Goods {
         this.name = name;
         this.cost = cost;
     }
+
+    public int getCost() {
+        return cost;
+    }
+
     @Override
     public String toString() {
-        return "Goods{" +
-                "name='" + name + '\'' +
-                ", cost=" + cost +
-                '}';
+        return  name + " " + cost;
     }
 
 

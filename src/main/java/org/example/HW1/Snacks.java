@@ -11,8 +11,6 @@ public class Snacks extends Goods {
 
     @Override
     public String toString() {
-        return "Snacks {" + name + ", cost= " + cost +
-                ", calories= " + calories +
-                '}';
+        return name + " price " + cost + " calories " + calories;
     }
 }
